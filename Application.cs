@@ -24,6 +24,8 @@ class Application
         // width is used for the debug view.
         Vector2i res = new(640, 480);
         Camera camera = new(res, 1f);
+        camera.Move(2 * Vector3.UnitY - Vector3.UnitZ);
+        camera.Rotate(camera.Right, 20);
         _raytracer = new Raytracer(screen, camera, scene, res);
     }
     public void Init()

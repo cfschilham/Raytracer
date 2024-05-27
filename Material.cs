@@ -60,7 +60,7 @@ public struct Material
         Ambient = _rocks,
         Diffuse = _rocks,
         Specular = new SolidColor(0.2f, 0.2f, 0.2f),
-        // NormalMap = 
+        NormalMap = new ImageTexture("../../../assets/rocks_normal.jpg"),
         Shininess = 20.0f,
         Gamma = 1.0f,
     };

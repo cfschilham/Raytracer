@@ -23,7 +23,7 @@ public class Plane : Primitive
         X = x;
         Y = y;
         if (Math.Abs(Vector3.Dot(X, Y)) > 0.99f) throw new ArgumentException("X and Y must be linearly independent");
-        Normal = Vector3.Cross(x, y).Normalized();
+        Normal = Vector3.Cross(y, x).Normalized();
     }
     
     public override Intersection? Intersect(Ray ray)
@@ -43,7 +43,12 @@ public class Plane : Primitive
             Vector3.Dot(hit - Position, Y) / Height + 0.5f
         );
 
-        Vector3 normal = denom < 0 ? Normal : -Normal;
+        Vector3 normal = Normal;
+        if (Material.NormalMap != null)
+            normal = Material.NormalMap.Pixel(uv.X, uv.Y).ToVector3() * 2 - Vector3.One;
+        
+        // Always make sure the normal points towards the ray origin.
+        normal = Vector3.Dot(normal, ray.Direction) < 0 ? normal : -normal; 
         return new Intersection(hit, normal, t, this, uv);
     }
 }

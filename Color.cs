@@ -29,6 +29,8 @@ public struct Color(float r, float g, float b)
     public int ToInt() => 
         ((int)Math.Round(_rgb.X * 255) << 16) | ((int)Math.Round(_rgb.Y * 255) << 8) | (int)Math.Round(_rgb.Z * 255);
     
+    public Vector3 ToVector3() => _rgb;
+    
     public static Color operator *(Color a, Color b) =>
         new(a._rgb.X * b._rgb.X, a._rgb.Y * b._rgb.Y, a._rgb.Z * b._rgb.Z);
     

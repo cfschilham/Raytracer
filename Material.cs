@@ -143,5 +143,5 @@ public class ImageTexture : Texture
         }
     }
     
-    public override Color Pixel(float x, float y) => Pixels[(int)(x * Pixels.GetLength(0)), (int)((1 - y) * Pixels.GetLength(1))];
+    public override Color Pixel(float x, float y) => Pixels[(int)(x * (Pixels.GetLength(0) - 1)), (int)((1 - y) * (Pixels.GetLength(1) - 1))];
 }

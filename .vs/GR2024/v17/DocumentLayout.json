@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\primitive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:primitive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\ray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:ray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\surface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:surface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\raytracer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:raytracer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\assets\\test.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:assets\\test.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\gr2024.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:1:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:gr2024.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\7.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|c:\\users\\henkd\\onedrive\\bureaublad\\gitprojectjes\\gr2024\\gr2024.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:2:0:{5DF4789A-96A4-4DA5-9364-FCF2EAB1B414}|GR2024.csproj|solutionrelative:gr2024.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Application.cs",
+              "RelativeDocumentMoniker": "Application.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Application.cs",
+              "RelativeToolTip": "Application.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:49:52.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Raytracer.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Raytracer.cs",
+              "RelativeDocumentMoniker": "Raytracer.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Raytracer.cs",
+              "RelativeToolTip": "Raytracer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:10:20.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\readme.txt",
+              "RelativeDocumentMoniker": "readme.txt",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\readme.txt",
+              "RelativeToolTip": "readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-27T12:02:27.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Camera.cs",
+              "RelativeDocumentMoniker": "Camera.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Camera.cs",
+              "RelativeToolTip": "Camera.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:12:22.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Material.cs",
+              "RelativeDocumentMoniker": "Material.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Material.cs",
+              "RelativeToolTip": "Material.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwDgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:57:46.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Plane.cs",
+              "RelativeDocumentMoniker": "Plane.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Plane.cs",
+              "RelativeToolTip": "Plane.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:01:14.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Primitive.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Primitive.cs",
+              "RelativeDocumentMoniker": "Primitive.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Primitive.cs",
+              "RelativeToolTip": "Primitive.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:01:32.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ray.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Ray.cs",
+              "RelativeDocumentMoniker": "Ray.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Ray.cs",
+              "RelativeToolTip": "Ray.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:01:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Scene.cs",
+              "RelativeDocumentMoniker": "Scene.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Scene.cs",
+              "RelativeToolTip": "Scene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:13:14.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sphere.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Sphere.cs",
+              "RelativeDocumentMoniker": "Sphere.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Sphere.cs",
+              "RelativeToolTip": "Sphere.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:13:06.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Surface.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Surface.cs",
+              "RelativeDocumentMoniker": "Surface.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Surface.cs",
+              "RelativeToolTip": "Surface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:12:47.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Color.cs",
+              "RelativeDocumentMoniker": "Color.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Color.cs",
+              "RelativeToolTip": "Color.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:55:14.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Light.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Light.cs",
+              "RelativeDocumentMoniker": "Light.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Light.cs",
+              "RelativeToolTip": "Light.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:13:45.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Intersection.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Intersection.cs",
+              "RelativeDocumentMoniker": "Intersection.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Intersection.cs",
+              "RelativeToolTip": "Intersection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:56:33.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "test.jpg - Bitmap [1289x967, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\assets\\test.jpg",
+              "RelativeDocumentMoniker": "assets\\test.jpg",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\assets\\test.jpg - Bitmap [1289x967, 24 bit, JPG]",
+              "RelativeToolTip": "assets\\test.jpg - Bitmap [1289x967, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-27T12:59:03.139Z",
+              "EditorCaption": " - Bitmap [1289x967, 24 bit, JPG]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GR2024.csproj",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\GR2024.csproj",
+              "RelativeDocumentMoniker": "GR2024.csproj",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\GR2024.csproj",
+              "RelativeToolTip": "GR2024.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T12:47:01.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Template.cs",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Template.cs",
+              "RelativeDocumentMoniker": "Template.cs",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\Template.cs",
+              "RelativeToolTip": "Template.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:12:58.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GR2024.csproj",
+              "DocumentMoniker": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\GR2024.csproj",
+              "RelativeDocumentMoniker": "GR2024.csproj",
+              "ToolTip": "C:\\Users\\henkd\\OneDrive\\Bureaublad\\GitProjectjes\\GR2024\\GR2024.csproj",
+              "RelativeToolTip": "GR2024.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T12:16:00.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAhwI8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-27T12:04:55.345Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,16 @@ public class Plane : Primitive
     public Vector3 Y;
     public float Width;
     public float Height;
-    
+    /// <summary>
+    /// makes a primitive of a plane
+    /// </summary>
+    /// <param name="position"></param>
+    /// <param name="x"></param>
+    /// <param name="y"></param>
+    /// <param name="width"></param>
+    /// <param name="height"></param>
+    /// <param name="material"></param>
+    /// <exception cref="ArgumentException"></exception>
     public Plane(Vector3 position, Vector3 x, Vector3 y, float width, float height, Material material) : base(material)
     {
         Position = position;
@@ -21,7 +30,7 @@ public class Plane : Primitive
         if (Math.Abs(Vector3.Dot(X, Y)) > 0.99f) throw new ArgumentException("X and Y must be linearly independent");
         Normal = Vector3.Cross(x, y).Normalized();
     }
-
+    
     public override Intersection? Intersect(Ray ray)
     {
         float denom = Vector3.Dot(Normal, ray.Direction);

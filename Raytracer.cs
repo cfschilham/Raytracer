@@ -18,7 +18,10 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
         new Vector3(_rand.Value.NextSingle(), _rand.Value.NextSingle(), _rand.Value.NextSingle()).Normalized();
     
     public static Vector3 Reflect(Vector3 v, Vector3 n) => v - 2 * Vector3.Dot(v, n) * n;
-
+    /// <summary>
+    /// renders one frame
+    /// </summary>
+    /// <exception cref="Exception"></exception>
     public void Render()
     {
         if (RenderResolution.Y != Screen.Height) throw new Exception("Render resolution must match screen height");
@@ -99,7 +102,11 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
         
         return Color.Black;
     }
-
+    /// <summary>
+    /// calculates closest intersection between primitive and ray
+    /// </summary>
+    /// <param name="ray"></param>
+    /// <returns></returns>
     Intersection? Trace(Ray ray) {
         Intersection? closest = null;
         foreach (Primitive primitive in Scene.Primitives) {
@@ -111,7 +118,13 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
 
         return closest;
     }
-    
+    /// <summary>
+    /// calculate color based on material and all lights and (most) primitives in scene
+    /// </summary>
+    /// <param name="ray"></param>
+    /// <param name="depth"></param>
+    /// <param name="ignore"></param>
+    /// <returns></returns>
     Color TraceColor(Ray ray, int depth, Primitive[] ignore) {
         if (depth == 0) return Color.Black;
         

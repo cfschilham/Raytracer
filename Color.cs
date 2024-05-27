@@ -19,8 +19,13 @@ public struct Color(float r, float g, float b)
     public static Color SkyBlue = new(135, 206, 235);
     
     public Color(int r, int g, int b) : this(r / 255f, g / 255f, b / 255f) { }
+
     public Color(Vector3 rgb) : this(rgb.X, rgb.Y, rgb.Z) { }
         
+    /// <summary>
+    /// returns the right integer that corrospons with the color
+    /// </summary>
+    /// <returns></returns>
     public int ToInt() => 
         ((int)Math.Round(_rgb.X * 255) << 16) | ((int)Math.Round(_rgb.Y * 255) << 8) | (int)Math.Round(_rgb.Z * 255);
     

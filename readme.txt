@@ -1,6 +1,7 @@
 Team members: (names and student IDs)
 Camiel Schilham 0687839
-Micha Jenniskens
+Micha Jenniskens 2480891
+Aidan Bruinsma 7098812
 
 Tick the boxes below for the implemented features. Add a brief note only if necessary, e.g., if it's only partially working, or how to turn it on.
 

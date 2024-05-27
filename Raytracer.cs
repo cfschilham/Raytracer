@@ -18,7 +18,10 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
         new Vector3(_rand.Value.NextSingle(), _rand.Value.NextSingle(), _rand.Value.NextSingle()).Normalized();
     
     public static Vector3 Reflect(Vector3 v, Vector3 n) => v - 2 * Vector3.Dot(v, n) * n;
-
+    /// <summary>
+    /// renders one frame
+    /// </summary>
+    /// <exception cref="Exception"></exception>
     public void Render()
     {
         if (RenderResolution.Y != Screen.Height) throw new Exception("Render resolution must match screen height");
@@ -109,7 +112,11 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
         // x *= (Screen.Width - RenderResolution.X) / (float)Screen.Width; // Adjust for aspect ratio
         return new Vector2i((int)x + RenderResolution.X, (int)y);
     }
-
+    /// <summary>
+    /// calculates closest intersection between primitive and ray
+    /// </summary>
+    /// <param name="ray"></param>
+    /// <returns></returns>
     Intersection? Trace(Ray ray) {
         Intersection? closest = null;
         foreach (Primitive primitive in Scene.Primitives) {

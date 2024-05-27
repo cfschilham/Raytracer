@@ -26,7 +26,10 @@ class Application
     {
         _raytracer.Render();
     }
-
+    /// <summary>
+    /// changes camera direction and position after the right keypress
+    /// </summary>
+    /// <param name="kbs"></param>
     public void OnKeypress(KeyboardState kbs) {
         int speed = 1;
         if (kbs.IsKeyDown(Keys.LeftShift)) speed = 3;
@@ -80,32 +83,11 @@ class Application
         }
     }
 
-    // Tick renders one frame.
+    /// <summary>
+    /// Tick renders one frame.
+    /// </summary>
     public void Tick()
     {
-        // ConsoleKeyInfo ki = Console.ReadKey(true);
-        // switch (ki.Key)
-        // {
-        //     case ConsoleKey.A:
-        //         _raytracer.Camera.Move(new Vector3(-0.5f, 0f, 0f));
-        //         break;
-        //     case ConsoleKey.W:
-        //         _raytracer.Camera.Move(new Vector3(0f, 0f, 0.5f));
-        //         break;
-        //     case ConsoleKey.S:
-        //         _raytracer.Camera.Move(new Vector3(0f, 0f, -0.5f));
-        //         break;
-        //     case ConsoleKey.D:
-        //         _raytracer.Camera.Move(new Vector3(0.5f, 0f, 0f));
-        //         break;
-        //     case ConsoleKey.Q:
-        //         _raytracer.Camera.Move(new Vector3(0f, 0.5f, 0f));
-        //         break;
-        //     case ConsoleKey.Z:
-        //         _raytracer.Camera.Move(new Vector3(0f, -0.5f, 0f));
-        //         break;
-        // }
-        // // _raytracer.Camera.Position += new Vector3(0.01f, 0f, 0f);
-        // _raytracer.Render();
+        
     }
 }

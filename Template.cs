@@ -63,7 +63,7 @@ public class OpenTKApp : GameWindow
     public OpenTKApp()
         : base(GameWindowSettings.Default, new NativeWindowSettings()
         {
-            ClientSize = new Vector2i(640, 480),
+            ClientSize = new Vector2i(1280, 480),
             Profile = allowPrehistoricOpenGL ? ContextProfile.Compatability : ContextProfile.Core,
             Flags = allowPrehistoricOpenGL ? ContextFlags.Default : ContextFlags.ForwardCompatible,
         })
@@ -171,6 +171,7 @@ public class OpenTKApp : GameWindow
         // called once per frame; app logic
         var keyboard = KeyboardState;
         if (keyboard[Keys.Escape]) terminated = true;
+        if (app != null) app.OnKeypress(keyboard);
     }
     protected override void OnRenderFrame(FrameEventArgs e)
     {

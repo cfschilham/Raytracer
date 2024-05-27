@@ -6,15 +6,20 @@ public class Plane : Primitive
 {
     public Vector3 Normal;
     public Vector3 Position;
+    public Vector3 X;
+    public Vector3 Y;
     public float Width;
     public float Height;
     
-    public Plane(Vector3 normal, Vector3 position, float width, float height, Material material) : base(material)
+    public Plane(Vector3 position, Vector3 x, Vector3 y, float width, float height, Material material) : base(material)
     {
-        Normal = normal;
         Position = position;
         Width = width;
         Height = height;
+        X = x;
+        Y = y;
+        if (Math.Abs(Vector3.Dot(X, Y)) > 0.99f) throw new ArgumentException("X and Y must be linearly independent");
+        Normal = Vector3.Cross(x, y).Normalized();
     }
 
     public override Intersection? Intersect(Ray ray)
@@ -25,10 +30,16 @@ public class Plane : Primitive
         float t = Vector3.Dot(Position - ray.Origin, Normal) / denom;
         if (t < 0) return null;
         Vector3 hit = ray.Origin + t * ray.Direction;
-        if (hit.X < Position.X - Width / 2 || hit.X > Position.X + Width / 2 ||
-            hit.Z < Position.Z - Height / 2 || hit.Z > Position.Z + Height / 2)
+        if (Math.Abs(Vector3.Dot(hit - Position, X)) > Width / 2 || 
+            Math.Abs(Vector3.Dot(hit - Position, Y)) > Height / 2) 
             return null;
         
-        return new Intersection(hit, denom < 0 ? Normal : -Normal, t, this);
+        Vector2 uv = new(
+            Vector3.Dot(hit - Position, X) / Width + 0.5f,
+            Vector3.Dot(hit - Position, Y) / Height + 0.5f
+        );
+
+        Vector3 normal = denom < 0 ? Normal : -Normal;
+        return new Intersection(hit, normal, t, this, uv);
     }
 }

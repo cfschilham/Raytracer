@@ -46,6 +46,13 @@ public class Sphere : Primitive
         float phi = (float)Math.Atan2(-normal.Z, normal.X) + (float)Math.PI;
 
         Vector2 uv = new(phi / (2 * (float)Math.PI), theta / (float)Math.PI);
+        
+        if (Material.NormalMap != null)
+            normal = Material.NormalMap.Pixel(uv.X, uv.Y).ToVector3() * 2 - Vector3.One;
+        
+        // Always make sure the normal points towards the ray origin.
+        normal = Vector3.Dot(normal, ray.Direction) < 0 ? normal : -normal; 
+        
         return new Intersection(hit, normal, t, this, uv);
     }
 }

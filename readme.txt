@@ -28,7 +28,7 @@ Bonus features implemented:
 [ ] Anti-aliasing
 [x] Parallelized: using parallel-for
 [x] Textures: on all implemented primitives
-[ ] Bump or normal mapping: on all implemented primitives
+[x] Bump or normal mapping: on all implemented primitives
 [x] Environment mapping: sphere or cube map, without intersecting actual sphere/cube/triangle primitives
 [ ] Refraction: also requires a reflected ray at every refractive surface, recursive
 [ ] Area lights: soft shadows

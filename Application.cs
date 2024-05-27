@@ -7,9 +7,10 @@ namespace GR2024;
 class Application
 {
     Raytracer _raytracer;
-
+    
     public Application(Surface screen)
     {
+        // Build the scene.
         Scene scene = new();
         scene.Primitives.Add(new Sphere(new Vector3(-1.5f, 0, 5), 1, Material.Mirror));
         scene.Primitives.Add(new Sphere(new Vector3(1.5f, 0, 5), 1, Material.Earth));
@@ -18,6 +19,9 @@ class Application
         scene.Primitives.Add(new Plane(new Vector3(0, -1, 5), Vector3.UnitX, Vector3.UnitZ, 10, 10, Material.Rocks));
         scene.Lights.Add(new PointLight(new Vector3(2, 5, 1), new Color(170, 170, 170)));
         scene.Lights.Add(new PointLight(new Vector3(-2, 5, 1), new Color(170, 170, 170)));
+        
+        // Resolution used by the camera. If this resolution is smaller than the screen resolution, the rest of the
+        // width is used for the debug view.
         Vector2i res = new(640, 480);
         Camera camera = new(res, 1f);
         _raytracer = new Raytracer(screen, camera, scene, res);
@@ -27,7 +31,7 @@ class Application
         _raytracer.Render();
     }
     /// <summary>
-    /// changes camera direction and position after the right keypress
+    /// Translates or rotates camera based on keyboard input.
     /// </summary>
     /// <param name="kbs"></param>
     public void OnKeypress(KeyboardState kbs) {

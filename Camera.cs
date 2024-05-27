@@ -14,13 +14,10 @@ public class Camera(Vector3 position, Vector3 target, Vector3 up, Vector2i resol
     public Vector3 Right => Vector3.Cross(Up, Target).Normalized();
 
     public Camera(Vector2i resolution, float focalLength) : this(Vector3.Zero, Vector3.UnitZ, Vector3.UnitY, resolution, focalLength) { }
+    
     /// <summary>
-    /// returns the right ray from the camera to calculate a pixel
+    /// Returns a ray that passes through the pixel at (x, y) in screen space.
     /// </summary>
-    /// <param name="x"></param>
-    /// <param name="y"></param>
-    /// <returns></returns>
-    /// <exception cref="ArgumentException"></exception>
     public Ray GetRay(int x, int y)
     {
         if (x >= Resolution.X || y >= Resolution.Y || x < 0 || y < 0)
@@ -36,17 +33,16 @@ public class Camera(Vector3 position, Vector3 target, Vector3 up, Vector2i resol
         Vector3 direction = Vector3.Normalize(FocalLength * Target + Right * dx + Up * dy);
         return new Ray(Position, direction);
     }
+    
     /// <summary>
-    /// moves the camera in the right position
+    /// Moves the camera by delta.
     /// </summary>
-    /// <param name="delta"></param>
     public void Move(Vector3 delta) =>
         Position += delta;
+    
     /// <summary>
-    /// rotates the camera
+    /// Rotates the camera around the target by the given axis and angle in degrees.
     /// </summary>
-    /// <param name="axis"></param>
-    /// <param name="angle"></param>
     public void Rotate(Vector3 axis, float angle)
     {
         Quaternion quat = Quaternion.FromAxisAngle(axis, 2 * angle * (float)Math.PI / 360);
@@ -57,7 +53,6 @@ public class Camera(Vector3 position, Vector3 target, Vector3 up, Vector2i resol
     /// <summary>
     /// Set FOV in degrees
     /// </summary>
-    /// <param name="angle"></param>
     public void SetFOV(float angle) =>
         FocalLength = 1 / MathF.Tan(2 * angle * (float)Math.PI / 360);
 }

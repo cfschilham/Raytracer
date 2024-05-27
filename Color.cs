@@ -23,9 +23,9 @@ public struct Color(float r, float g, float b)
     public Color(Vector3 rgb) : this(rgb.X, rgb.Y, rgb.Z) { }
         
     /// <summary>
-    /// returns the right integer that corrospons with the color
+    /// Converts the color to an integer with the lower three bytes representing the RGB values. Blue being least
+    /// significant, red being the most significant.
     /// </summary>
-    /// <returns></returns>
     public int ToInt() => 
         ((int)Math.Round(_rgb.X * 255) << 16) | ((int)Math.Round(_rgb.Y * 255) << 8) | (int)Math.Round(_rgb.Z * 255);
     

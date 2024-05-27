@@ -10,16 +10,11 @@ public class Plane : Primitive
     public Vector3 Y;
     public float Width;
     public float Height;
+    
     /// <summary>
-    /// makes a primitive of a plane
+    /// Construct a plane primitive. The plane is defined by a position, two vectors X and Y, and a material. X defines
+    /// the width direction and Y defines the height direction. The normal is calculated as the cross product of X and Y.
     /// </summary>
-    /// <param name="position"></param>
-    /// <param name="x"></param>
-    /// <param name="y"></param>
-    /// <param name="width"></param>
-    /// <param name="height"></param>
-    /// <param name="material"></param>
-    /// <exception cref="ArgumentException"></exception>
     public Plane(Vector3 position, Vector3 x, Vector3 y, float width, float height, Material material) : base(material)
     {
         Position = position;

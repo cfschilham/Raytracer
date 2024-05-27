@@ -99,10 +99,10 @@ public abstract class Texture
 {
     public abstract Color Pixel(float x, float y);
 }
+
 /// <summary>
-/// creates a single color texture
+/// Creates a solid color texture
 /// </summary>
-/// <param name="color"></param>
 public class SolidColor(Color color) : Texture
 {
     public Color Color = color;
@@ -112,11 +112,8 @@ public class SolidColor(Color color) : Texture
     public override Color Pixel(float x, float y) => Color;
 }
 /// <summary>
-/// creates a checkerboard Texture
+/// Creates a checkerboard Texture
 /// </summary>
-/// <param name="a"></param>
-/// <param name="b"></param>
-/// <param name="size"></param>
 public class Checkerboard(Color a, Color b, int size) : Texture
 {
     public Color A = a;
@@ -129,10 +126,10 @@ public class Checkerboard(Color a, Color b, int size) : Texture
 public class ImageTexture : Texture
 {
     public Color[,] Pixels;
+    
     /// <summary>
-    /// give A picture texture to a primitive
+    /// Makes a pixel map of the image at the given path
     /// </summary>
-    /// <param name="path"></param>
     public ImageTexture(string path) {
         Image<Rgba32> img = Image.Load<Rgba32>(path);
         Pixels = new Color[img.Width, img.Height];
@@ -143,5 +140,8 @@ public class ImageTexture : Texture
         }
     }
     
+    /// <summary>
+    /// Gets the color of the pixel based on the given coordinates. X and Y should be between 0.0f and 1.0f inclusive.
+    /// </summary> 
     public override Color Pixel(float x, float y) => Pixels[(int)(x * (Pixels.GetLength(0) - 1)), (int)((1 - y) * (Pixels.GetLength(1) - 1))];
 }

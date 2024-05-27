@@ -48,15 +48,6 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
         foreach (Sphere sphere in Scene.Primitives.Where(p => p is Sphere).Cast<Sphere>()) {
             PlotCircle(GetDebugPixelPoint(sphere.Center.Xz), sphere.Radius, 20);
         }
-        
-        // Draw camera point.
-        Vector2i cameraPoint = GetDebugPixelPoint(Camera.Position.Xz);
-        Screen.Bar(cameraPoint.X - 1, cameraPoint.Y - 1, cameraPoint.X + 1, cameraPoint.Y + 1, Color.Red.ToInt());
-        
-        // Draw screen plane.
-        Vector2i screenPlaneLeft = GetDebugPixelPoint((Camera.Position + Camera.Target * Camera.FocalLength + Camera.Right * -0.5f * Camera.ScreenPlaneWidth).Xz);
-        Vector2i screenPlaneRight = GetDebugPixelPoint((Camera.Position + Camera.Target * Camera.FocalLength + Camera.Right * 0.5f * Camera.ScreenPlaneWidth).Xz);
-        Screen.Line(screenPlaneLeft.X, screenPlaneLeft.Y, screenPlaneRight.X, screenPlaneRight.Y, Color.Green.ToInt());
 
         // Draw debug rays.
         foreach ((Ray, Intersection?) debugRay in debugRays) {
@@ -75,6 +66,15 @@ public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i rend
             }
             Screen.Line(originPixel.X, originPixel.Y, hitPixel.X, hitPixel.Y, Color.Blue.ToInt());
         }
+        
+        // Draw camera point.
+        Vector2i cameraPoint = GetDebugPixelPoint(Camera.Position.Xz);
+        Screen.Bar(cameraPoint.X - 1, cameraPoint.Y - 1, cameraPoint.X + 1, cameraPoint.Y + 1, Color.Red.ToInt());
+        
+        // Draw screen plane.
+        Vector2i screenPlaneLeft = GetDebugPixelPoint((Camera.Position + Camera.Target * Camera.FocalLength + Camera.Right * -0.5f * Camera.ScreenPlaneWidth).Xz);
+        Vector2i screenPlaneRight = GetDebugPixelPoint((Camera.Position + Camera.Target * Camera.FocalLength + Camera.Right * 0.5f * Camera.ScreenPlaneWidth).Xz);
+        Screen.Line(screenPlaneLeft.X, screenPlaneLeft.Y, screenPlaneRight.X, screenPlaneRight.Y, Color.Green.ToInt());
     }
 
     void PlotCircle(Vector2i point, float radius, int thickness)

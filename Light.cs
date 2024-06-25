@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace GR2024;
+namespace Raytracer;
 
 public abstract class Light(Color color)
 {

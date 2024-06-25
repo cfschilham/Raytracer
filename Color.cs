@@ -1,7 +1,7 @@
 using System.Numerics;
 using Vector3 = OpenTK.Mathematics.Vector3;
 
-namespace GR2024;
+namespace Raytracer;
 
 public struct Color(float r, float g, float b)
 {

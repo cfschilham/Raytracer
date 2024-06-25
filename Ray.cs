@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace GR2024;
+namespace Raytracer;
 
 public struct Ray(Vector3 origin, Vector3 direction)
 {

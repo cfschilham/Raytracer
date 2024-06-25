@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace GR2024;
+namespace Raytracer;
 
 public class Camera(Vector3 position, Vector3 target, Vector3 up, Vector2i resolution, float focalLength)
 {

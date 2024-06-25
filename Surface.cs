@@ -2,7 +2,7 @@
 using SixLabors.ImageSharp.PixelFormats;
 using OpenTK.Graphics.OpenGL;
 
-namespace GR2024;
+namespace Raytracer;
 
 public class Surface
 {

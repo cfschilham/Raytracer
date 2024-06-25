@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace GR2024;
+namespace Raytracer;
 
 public class Raytracer(Surface screen, Camera camera, Scene scene, Vector2i renderResolution)
 {

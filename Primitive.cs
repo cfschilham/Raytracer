@@ -1,4 +1,4 @@
-namespace GR2024;
+namespace Raytracer;
 
 public abstract class Primitive(Material material)
 {

@@ -2,7 +2,7 @@ using System.Drawing;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 
-namespace GR2024;
+namespace Raytracer;
 
 class Application
 {
@@ -16,7 +16,7 @@ class Application
         scene.Primitives.Add(new Sphere(new Vector3(1.5f, 0, 5), 1, Material.Earth));
         scene.Primitives.Add(new Sphere(new Vector3(0, -0.5f, 7), 0.5f, Material.Polished));
         scene.Primitives.Add(new Sphere(Vector3.Zero, 100f, Material.Sky));
-        scene.Primitives.Add(new Plane(new Vector3(0, -1, 5), Vector3.UnitX, Vector3.UnitZ, 10, 10, Material.Rocks));
+        scene.Primitives.Add(new Plane(new Vector3(0, -1, 5), Vector3.UnitX, Vector3.UnitZ, 15, 15, Material.Rocks));
         scene.Lights.Add(new PointLight(new Vector3(2, 5, 1), new Color(170, 170, 170)));
         scene.Lights.Add(new PointLight(new Vector3(-2, 5, 1), new Color(170, 170, 170)));
         

@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace GR2024;
+namespace Raytracer;
 
 public struct Scene(List<Primitive> primitives, List<Light> lights)
 {

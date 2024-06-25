@@ -2,7 +2,7 @@ using OpenTK.Mathematics;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 
-namespace GR2024;
+namespace Raytracer;
 using System.Drawing;
 
 public struct Material
@@ -57,7 +57,7 @@ public struct Material
     static ImageTexture _rocks = new("../../../assets/rocks_color.jpg");
     public static Material Rocks = new()
     {
-        Ambient = _rocks,
+        Ambient = new ImageTexture("../../../assets/rocks_ambientocclusion.jpg").Mul(0.10f).Add(new Color(0.05f, 0.05f, 0.05f)),
         Diffuse = _rocks,
         Specular = new SolidColor(0.2f, 0.2f, 0.2f),
         NormalMap = new ImageTexture("../../../assets/rocks_normal.jpg"),
@@ -138,6 +138,20 @@ public class ImageTexture : Texture
             Rgba32 pixel = img[x, y];
             Pixels[x, y] = new Color(pixel.R, pixel.G, pixel.B);
         }
+    }
+    
+    public ImageTexture Mul(float scalar) {
+        for (int x = 0; x < Pixels.GetLength(0); x++)
+            for (int y = 0; y < Pixels.GetLength(1); y++) 
+                Pixels[x, y] *= scalar;
+        return this;
+    }
+
+    public ImageTexture Add(Color color) {
+        for (int x = 0; x < Pixels.GetLength(0); x++)
+            for (int y = 0; y < Pixels.GetLength(1); y++) 
+                Pixels[x, y] += color;
+        return this;
     }
     
     /// <summary>

@@ -20,7 +20,7 @@ using OpenTK.Windowing.GraphicsLibraryFramework;
 // tutorial. After the tutorial you can throw away this template code, or modify it at
 // will, or maybe it simply suits your needs.
 
-namespace GR2024;
+namespace Raytracer;
 
 public class OpenTKApp : GameWindow
 {

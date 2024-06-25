@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace GR2024;
+namespace Raytracer;
 
 public struct Intersection(Vector3 point, Vector3 normal, float distance, Primitive primitive, Vector2 uv)
 {
